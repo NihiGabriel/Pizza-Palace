@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,700&display=swap');
+
+
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+/* about-us section index */
+.aboutus{
+    margin-top: 40px;
+}
+.pizza-1sec{
+width: 400px;
+height: 300px;
+margin-top: 20px;
+}
+.Aboutus-title h2{
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bold;
+    color:  #ffb700;
+    margin-top: 20px;
+}
+.Aboutus-title p{
+    font-family: Verdana;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.Aboutus-title a{
+    border: #ffb700 solid 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color:  #ffb700;
+    margin-top: 10px;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 100;
+}
+.Aboutus-title a:hover {
+    border: rgb(206, 108, 16)solid 1px;
+    color: rgb(0, 0, 0) !important;
+    background: rgb(231, 158, 22);
+  }
+
+  /* part-time job */
+  .Part-time-job{
+      margin-top: 100px;
+    background: #ffb700;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+  }
+  .part-time{
+    background: #ffc663;
+    padding: 20px;
+    width: 330px;
+    height: 310px;
+    margin-left: 20px;
+  }
+  .bike{
+      width: 290px;
+      height: 250px;
+      margin-left: -10px;
+      margin-top: 5px;
+  }
+  .ptj-text h2{
+      color: #fff;
+      font-family: Verdana;
+      font-size: 40px;
+      font-weight:600;
+      line-height: normal;
+      margin-top: 20px;
+  }
+  .ptj-text p{
+      color: #fff;
+      font-family: Verdana;
+      font-size: 20px;
+    margin-bottom: 30px;
+      
+  }
+
+  .ptj-text a{
+    border: #fff solid 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 100;
+  }
+
+  .ptj-text a:hover {
+    border: #000 solid 1px;
+    color: #000;
+    background: transparent;
+  }
+  .ptj-text span{
+      color: rgb(238, 230, 230);
+      font-size: 20px;
+  }
+
+
+  /* media quaries */
+  /* for mobile */
+  @media screen and (max-width: 575px){
+    
+    .pizza-1sec{
+        width:100% !important;
+        height: 300px;
+        margin-top: 30px !important;
+        }
+        .Aboutus-title h2{
+            font-family: Verdana;
+            font-size: 25px;
+            font-weight: bold;
+            color:  #ffb700 ;
+        }
+        .Aboutus-title p{
+            font-family: Verdana;
+            font-size: 15px;
+            line-height:30px;
+            margin-bottom:20px;
+        }
+        .Aboutus-title a{
+            border:#ffb700 solid 1px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Verdana;
+            font-size: 10px;
+            color: #ffb700;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        .part-time{
+            background: #ffc663 ;
+            padding: 20px;
+            width: 100% !important;
+            height: 310px;
+            margin-left: 0px;
+          }
+        .bike{
+            width: 250px !important;
+            height: 250px;
+            margin-left: 20px;
+            margin-top: 5px;
+          }
+        .ptj-text h2{
+            color: #fff;
+            font-family: Verdana;
+            font-size: 30px;
+            font-weight:300;
+            line-height: normal;
+            margin-top: 10px;
+  }
+        .ptj-text p{
+            color: #fff;
+            font-family: Verdana;
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 30px;
+      
+  }
+        .ptj-text span{
+            color: rgb(238, 230, 230);
+            font-size: 20px;    
+            margin-top: 20px;
+}
+        .ptj-text a{
+            border: #fff solid 1px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Verdana;
+            font-size: 15px;
+  }
+}
+
+@media(min-width: 1200px){
+    
+        .pizza-1sec{
+            width: 500px;
+            height: 330px;
+            margin-top: 20px;
+            margin-left: 70px;
+}
+        .Aboutus-title h2{
+            font-family: Verdana;
+            font-size: 30px;
+            font-weight: bold;
+            color:  #ffb700;
+            margin-left: -40px;
+}
+.Aboutus-title p{
+    font-family: Verdana;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-left: -40px;
+}
+.Aboutus-title a{
+    border: rgb(206, 108, 16)solid 1px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    margin-left: -40px;
+    font-size: 15px;
+    
+}
+.bike{
+    width: 400px;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: -10px;
+     
+}
+.part-time{
+    background:#ffc663;
+    padding: 20px;
+    width: 500px;
+    height: 360px;
+    margin-left: -40px;}
+    
+  
+.ptj-text h2{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 45px;
+    font-weight:600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.ptj-text p{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 23px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+    
+}
+.ptj-text span{
+    color: rgb(238, 230, 230);
+    font-size: 25px;
+    margin-left: 70px;
+   
+  
+}
+.ptj-text a{
+    border: #fff solid 1px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+}
+
+
+            
+
