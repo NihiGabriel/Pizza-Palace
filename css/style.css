@@ -1,11 +1,11 @@
 .mobile-app .header{
-text-align: center;
-margin-top: 20px;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 154.69%;
-color: #FF7B00;
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 154.69%;
+    color: #FF7B00;
 }
 
 .mobile-app .mobile-img{
@@ -98,4 +98,3 @@ color: #FF7B00;
         font-size: 15px;
     }
 }
-
