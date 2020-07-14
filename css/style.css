@@ -43,7 +43,7 @@
 
 .mobile-app a{
     position: relative;
-    top: 28; 
+    top: 10; 
     padding: 6px;  
     left: 4%; 
 }
@@ -87,7 +87,7 @@
     
     .mobile-app h4{
         font-size: 18px;
-        margin-top: 28%;
+        margin-top: 35%;
     }
 
     .mobile-app h3{
