@@ -575,6 +575,9 @@ hr.light{
 
 @media (max-width: 600px){
 
+    .f-h1{
+        font-size: 2em;}
+        
     .pz-left{
         padding-left: 10px;
     }
