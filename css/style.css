@@ -7,52 +7,6 @@
     margin: 0;
 }
 
-/* about-us section index */
-.aboutus{
-    margin-top: 40px;
-}
-.pizza-1sec{
-width: 400px;
-height: 300px;
-margin-top: 20px;
-}
-.Aboutus-title h2{
-    font-family: Verdana;
-    font-size: 30px;
-    font-weight: bold;
-    color:  #ffb700;
-    margin-top: 20px;
-}
-.Aboutus-title p{
-    font-family: Verdana;
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 25px;
-}
-.Aboutus-title a{
-    border: #ffb700 solid 1px;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    list-style: none;
-    font-family: Verdana;
-    font-size: 15px;
-    color:  #ffb700;
-    margin-top: 10px;
-    text-transform: capitalize;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    font-weight: 100;
-}
-.Aboutus-title a:hover {
-    border: rgb(206, 108, 16)solid 1px;
-    color: rgb(0, 0, 0) !important;
-    background: rgb(231, 158, 22);
-  }
 
   /* part-time job */
   .Part-time-job{
@@ -119,6 +73,54 @@ margin-top: 20px;
   .ptj-text span{
       color: rgb(238, 230, 230);
       font-size: 20px;
+  }
+
+  
+/* about-us section index */
+.aboutus{
+    margin-top: 40px;
+}
+.pizza-1sec{
+width: 400px;
+height: 300px;
+margin-top: 20px;
+}
+.Aboutus-title h2{
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bold;
+    color:  #ffb700;
+    margin-top: 20px;
+}
+.Aboutus-title p{
+    font-family: Verdana;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.Aboutus-title a{
+    border: #ffb700 solid 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color:  #ffb700;
+    margin-top: 10px;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 100;
+}
+.Aboutus-title a:hover {
+    border: rgb(206, 108, 16)solid 1px;
+    color: rgb(0, 0, 0) !important;
+    background: rgb(231, 158, 22);
   }
 
 
@@ -505,3 +507,58 @@ margin-top: 20px;
     }
 }
 
+/* -----footer---- */
+.main-footer{
+    background-color: #8e0000;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+ }
+.footer-links{
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: all .3s;
+
+}
+.footer-links:hover{
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all .3s;
+
+}
+.f-h1{
+    font-size: 4em;
+}
+.f-h4{
+    padding-left: 5px;
+    font-family: Verdana;
+    font-size: 1.3em;
+}
+.footer-icons{
+    font-size: 1.8em;
+    padding-right: 15px;    
+}
+.pd--top{
+    padding-top: 75px;
+}
+.pd--left{
+    padding-left: 20px;
+}
+.footer-h3{
+    padding-left: 30px;
+}
+.ft-adr{
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+p{
+    padding-left: 25px;
+}
