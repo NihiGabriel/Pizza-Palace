@@ -305,7 +305,8 @@ margin-top: 20px;
     color: #8e0000;
 }
 .ui-img1{
-    margin-left: 8em !important;
+    margin-left: 2em !important;
+    margin-top: 2em;
 }
 .ui-del{
     font-size: 25px;
@@ -369,6 +370,7 @@ margin-top: 20px;
     }
     .ui-img2{
         text-align: center;
+        margin-right: 3.5em;
     }
     .ui-img2_1{
         text-align: center;
@@ -385,9 +387,6 @@ margin-top: 20px;
 }
 
 @media  (min-width: 1400px){
-    .ui-img1{
-        margin-left: 10.3em !important;
-    }
     .ui-piz{
         font-size: 70px !important;
     }
@@ -403,18 +402,12 @@ margin-top: 20px;
 }
 
 @media (max-width: 1300px){
-     .ui-img1{
-        margin-left: 5.3em !important;
-    }
     .ui-img2{
         margin-left: 3.5em !important;
     }
 }
 
 @media (max-width:992px) and (min-width:601px) {
-     .ui-img1{
-        margin-left: 2.4em !important;
-    }
     .ui-piz{
         font-size: 40px;
     }
@@ -440,13 +433,13 @@ margin-top: 20px;
         border-radius: 100px;
     }
     .ui-tex3{
-        font-size: 30px;
+        font-size: 28px;
         text-align: left;
-        margin-top: .4em;
+        margin-top: .9em;
         color: #ffffff;
     }
     .ui-tex4{
-        font-size: 11px;
+        font-size: 10px;
         text-align: left;
         color: #ffffff;
     }
