@@ -521,7 +521,7 @@ ul{
 }
 .footer-links:hover{
     line-height: 35px;
-    color: #ffffff;
+    color: #ffc663;
     font-size: 1.2em;
     text-decoration: none;
     transition: all .3s;
@@ -535,9 +535,16 @@ ul{
     font-family: Verdana;
     font-size: 1.3em;
 }
-.footer-icons{
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-linkedin-in{
     font-size: 1.8em;
-    padding-right: 15px;    
+    padding-right: 15px;
+    color: #ffffff;    
+}
+.fa-twitter:hover,
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-linkedin-in:hover{
+    color: #ffc663;
 }
 .pd--top{
     padding-top: 75px;
@@ -555,3 +562,34 @@ ul{
 p{
     padding-left: 25px;
 }
+hr.light{
+    border: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+} 
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 600px){
+
+    .pz-left{
+        padding-left: 10px;
+    }
+    .pd--left{
+        padding-left: 0px;
+    }
+    .pd--right{
+        padding-right: 65px;
+    }
+    hr.lit{
+        border: 1px solid #d5d5d5;
+        width: 75%;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
