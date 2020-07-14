@@ -1,100 +1,522 @@
-.mobile-app .header{
-    text-align: center;
-    margin-top: 20px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 154.69%;
-    color: #FF7B00;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,700&display=swap');
+
+
+.body{
+    padding: 0;
+    margin: 0;
 }
 
-.mobile-app .mobile-img{
-    background: rgba(255, 255, 255, 0.49);
-    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.06);
-    position: relative;
-    left: 16%;
-    top: 20;
-    max-width: 100%;
+/* about-us section index */
+.aboutus{
+    margin-top: 40px;
 }
-
-.mobile-app h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 50px;
-    font-weight: 500px;
-    color: #000000;
+.pizza-1sec{
+width: 400px;
+height: 300px;
+margin-top: 20px;
 }
-
-
-.mobile-app h3{
+.Aboutus-title h2{
+    font-family: Verdana;
+    font-size: 30px;
     font-weight: bold;
-    font-size: 18px;
-    color: #000000;
-    text-align: center;
+    color:  #ffb700;
+    margin-top: 20px;
 }
-
-
-.mobile-app .lead{
-    font-weight: normal;
+.Aboutus-title p{
+    font-family: Verdana;
     font-size: 15px;
-    color: #000000;
-    text-align: center;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.Aboutus-title a{
+    border: #ffb700 solid 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color:  #ffb700;
+    margin-top: 10px;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 100;
+}
+.Aboutus-title a:hover {
+    border: rgb(206, 108, 16)solid 1px;
+    color: rgb(0, 0, 0) !important;
+    background: rgb(231, 158, 22);
+  }
+
+  /* part-time job */
+  .Part-time-job{
+      margin-top: 100px;
+    background: #ffb700;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+  }
+  .part-time{
+    background: #ffc663;
+    padding: 20px;
+    width: 330px;
+    height: 310px;
+    margin-left: 20px;
+  }
+  .bike{
+      width: 290px;
+      height: 250px;
+      margin-left: -10px;
+      margin-top: 5px;
+  }
+  .ptj-text h2{
+      color: #fff;
+      font-family: Verdana;
+      font-size: 40px;
+      font-weight:600;
+      line-height: normal;
+      margin-top: 20px;
+  }
+  .ptj-text p{
+      color: #fff;
+      font-family: Verdana;
+      font-size: 20px;
+    margin-bottom: 30px;
+      
+  }
+
+  .ptj-text a{
+    border: #fff solid 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 100;
+  }
+
+  .ptj-text a:hover {
+    border: #000 solid 1px;
+    color: #000;
+    background: transparent;
+  }
+  .ptj-text span{
+      color: rgb(238, 230, 230);
+      font-size: 20px;
+  }
+
+
+  /* media quaries */
+  /* for mobile */
+  @media screen and (max-width: 575px){
+    
+    .pizza-1sec{
+        width:100% !important;
+        height: 300px;
+        margin-top: 30px !important;
+        }
+        .Aboutus-title h2{
+            font-family: Verdana;
+            font-size: 25px;
+            font-weight: bold;
+            color:  #ffb700 ;
+        }
+        .Aboutus-title p{
+            font-family: Verdana;
+            font-size: 15px;
+            line-height:30px;
+            margin-bottom:20px;
+        }
+        .Aboutus-title a{
+            border:#ffb700 solid 1px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Verdana;
+            font-size: 10px;
+            color: #ffb700;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        .part-time{
+            background: #ffc663 ;
+            padding: 20px;
+            width: 100% !important;
+            height: 310px;
+            margin-left: 0px;
+          }
+        .bike{
+            width: 250px !important;
+            height: 250px;
+            margin-left: 20px;
+            margin-top: 5px;
+          }
+        .ptj-text h2{
+            color: #fff;
+            font-family: Verdana;
+            font-size: 30px;
+            font-weight:300;
+            line-height: normal;
+            margin-top: 10px;
+  }
+        .ptj-text p{
+            color: #fff;
+            font-family: Verdana;
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 30px;
+      
+  }
+        .ptj-text span{
+            color: rgb(238, 230, 230);
+            font-size: 20px;    
+            margin-top: 20px;
+}
+        .ptj-text a{
+            border: #fff solid 1px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Verdana;
+            font-size: 15px;
+  }
 }
 
+@media(min-width: 1200px){
+    
+        .pizza-1sec{
+            width: 500px;
+            height: 330px;
+            margin-top: 20px;
+            margin-left: 70px;
+}
+        .Aboutus-title h2{
+            font-family: Verdana;
+            font-size: 30px;
+            font-weight: bold;
+            color:  #ffb700;
+            margin-left: -40px;
+}
+.Aboutus-title p{
+    font-family: Verdana;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-left: -40px;
+}
+.Aboutus-title a{
+    border: rgb(206, 108, 16)solid 1px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    margin-left: -40px;
+    font-size: 15px;
+    
+}
+.bike{
+    width: 400px;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: -10px;
+     
+}
+.part-time{
+    background:#ffc663;
+    padding: 20px;
+    width: 500px;
+    height: 360px;
+    margin-left: -40px;}
+    
+  
+.ptj-text h2{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 45px;
+    font-weight:600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.ptj-text p{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 23px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+    
+}
+.ptj-text span{
+    color: rgb(238, 230, 230);
+    font-size: 25px;
+    margin-left: 70px;
+   
+  
+}
+.ptj-text a{
+    border: #fff solid 1px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+}
+
+
+            
+
+
+ 
 .mobile-app a{
     position: relative;
     top: 10; 
     padding: 6px;  
     left: 4%; 
+  
+.ui-piz{
+    font-size: 70px;
+    color: #8e0000;
+}
+.ui-img1{
+    margin-left: 8em !important;
+}
+.ui-del{
+    font-size: 25px;
+    
+}
+.ui-tex1{
+    font-size: 40px;
+}
+.ui-tex2{
+    font-size: 20px; 
+    line-height: 86.69%; 
+    padding-top: 0.5em;
+}
+.btn{
+    padding: 0.6rem 2rem;
+    border-radius: 100px;
+    box-shadow: none !important
+}
+.ui-rounded{
+    border-radius: 100px;
+}
+.on-white, .on-white a{
+    color: #ffffff !important;
+}
+.ui-delfast{
+    margin-top: 2em;
+    height: 204px;
+    left: 0;
+    top: 1132px;
+    background: #ffc663;
+}
+.ui-dflex{
+    display: flex;
+
 }
 
-@media screen and (min-width:768px){
-    .mobile-app .header{
-        font-size: 38px;
+@media (max-width: 600px){
+    .ui-piz{
+        text-align:center;
+        font-size: 40px
     }
-    
-    .mobile-app h4{
-        font-size: 45px;
+    .ui-del{
+        text-align: center;
+        font-size: 15px;
     }
-
-    .mobile-app h3{
-        font-size: 28px;
+    .ui-btn{
+        text-align: center;
     }
-
-    .mobile-app .lead{
-        font-size: 25px;
+    .ui-img1{
+        display: none !important;
     }
-
-    .mobile-app .mobile-img{
-        position: absolute;
-        left: 5%;
-        margin-top: 6%;
+    .ui-tex3{
+        font-size: 23px;
+        text-align: center;
+        margin-top: .4em;
+        color: #ffffff;
+    }
+    .ui-tex4{
+        font-size: 13px;
+        text-align: center;
+        color: #ffffff
+    }
+    .ui-img2{
+        text-align: center;
+    }
+    .ui-img2_1{
+        text-align: center;
+    }
+    .ui-img3{
+        background-color: #8e0000;
+        padding: .4em;
+        margin-top: 1em;
+        border-radius: 100px;
+    }
+    .ui-delfast{
+        height: auto;
     }
 }
 
-@media screen and (min-width:768px) and (max-width: 1024px){
-    .mobile-app .mobile-img{
-        position: absolute;
-        right: 0;
-        width: 75%;
-        margin-top: 12%;
-        
+@media  (min-width: 1400px){
+    .ui-img1{
+        margin-left: 10.3em !important;
     }
-    
-    .mobile-app .header{
-        font-size: 25px;
+    .ui-piz{
+        font-size: 70px !important;
     }
+    .ui-del{
+        font-size: 25px !important;
+    }
+    .ui-img2{
+        margin-left: 8em !important;
+    }
+    .ui-img2_1{
+        margin-left: 9.9em !important;
+    }
+}
+
+@media (max-width: 1300px){
+     .ui-img1{
+        margin-left: 5.3em !important;
+    }
+    .ui-img2{
+        margin-left: 3.5em !important;
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+     .ui-img1{
+        margin-left: 2.4em !important;
+    }
+    .ui-piz{
+        font-size: 40px;
+    }
+
     
     .mobile-app h4{
         font-size: 18px;
         margin-top: 35%;
-    }
 
-    .mobile-app h3{
-        font-size: 15px;
-    }
+    .ui-del{
+        font-size:15px;
 
-    .mobile-app .lead{
-        font-size: 15px;
+    }
+    .ui-delfast{
+        display: flex;
+        height: auto;
+    }
+    .ui-img2{
+        float: left;
+        margin-left: 1em;
+    }
+    .ui-img2_1{
+        float: left;
+        margin-left: 2em;
+    }
+    .ui-img3{
+        background-color: #8e0000;
+        padding: .4em;
+        margin: .5em;
+        border-radius: 100px;
+    }
+    .ui-tex3{
+        font-size: 30px;
+        text-align: left;
+        margin-top: .4em;
+        color: #ffffff;
+    }
+    .ui-tex4{
+        font-size: 11px;
+        text-align: left;
+        color: #ffffff;
     }
 }
+@media (width: 1366px){
+    .ui-img2{
+        margin-left: 6.5em !important;
+    }
+    .ui-img2_1{
+        margin-left: 8em !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .ui-piz{
+        font-size: 40px;
+    }
+    .ui-del{
+        font-size:15px;
+    }
+    .ui-delfast{
+        display: flex;
+        height: auto;
+        width: auto !important;
+    }
+    .ui-img2{
+        float: left;
+        margin-left: 1em;
+    }
+    .ui-img2_1{
+        float: left;
+        margin-left: 5em;
+    }
+    .ui-img3{
+        background-color: #8e0000;
+        padding: .4em;
+        margin: .5em;
+        border-radius: 100px;
+    }
+    .ui-piz{
+        font-size: 50px;
+    }
+    .ui-del{
+        font-size: 20px;
+    }
+    .ui-tex3{
+        font-size: 30px;
+        text-align: left;
+        margin-top: .4em;
+        color: #ffffff;
+    }
+    .ui-tex4{
+        font-size: 15px;
+        text-align: left;
+        color: #ffffff;
+    }
+}
+
